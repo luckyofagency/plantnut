@@ -441,7 +441,7 @@ html {
   }
 }
 .copytext_p {
-  color: rgba(255, 162, 110, 0.5);
+  color: #d6eb3945;
   font-family: "ADLaM Display";
   font-size: 2.24406rem;
   font-style: normal;
@@ -454,7 +454,7 @@ html {
   padding: 0 10px;
   font-size: 1.7rem;
   @media (max-width: 768px) {
-    color: rgba(255, 162, 110, 0.5);
+    color: #d6eb3945;
     /* margin-top: 1rem; */
     /* dsadas */
     font-family: "ADLaM Display";
