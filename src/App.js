@@ -115,7 +115,7 @@ export default function App() {
               <div className={styles.main_mobile_second_links}>
                 <div className={styles.m_l_cnt_links_cnt}>
                   <a
-                    href="https://x.com/catnutsolana"
+                    href="https://x.com/PLANTNUTSOLANA"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -212,7 +212,7 @@ export default function App() {
               <div className={styles.m_l_cnt_links}>
                 <div className={styles.m_l_cnt_links_cnt}>
                   <a
-                    href="https://x.com/catnutsolana"
+                    href="https://x.com/PLANTNUTSOLANA"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -586,7 +586,7 @@ export default function App() {
           <div className={styles.footer_cnt}>
             <div className={styles.footer_logo}>
               <a
-                href="https://x.com/catnutsolana"
+                href="https://x.com/PLANTNUTSOLANA"
                 target="_blank"
                 rel="noopener noreferrer"
               >
