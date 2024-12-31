@@ -450,10 +450,6 @@ export default function App() {
                   </p>
                 </div>
               </div>
-              <img
-                className={styles.cat_card}
-                src="./images/cat_card.png"
-              ></img>
             </div>
           </div>
           <img className={styles.tree_tri} src="./images/tri_2.png"></img>
