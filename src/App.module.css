@@ -430,8 +430,8 @@ html {
     height: 84px;
     flex-shrink: 0;
     border-radius: 0.28219rem;
-    border: 0.2rem solid #ffa26e;
-    background: #307865;
+    background: #323232;
+    border: 0.4rem solid #d6eb39;
 
     margin-top: 35.8rem;
     scale: 0.8;
