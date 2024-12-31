@@ -150,7 +150,7 @@ export default function App() {
                     />
                   </a>
                   <a
-                    href="https://t.me/catnutsolanaportal"
+                    href="https://t.me/plantnutsolana"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -247,7 +247,7 @@ export default function App() {
                     />
                   </a>
                   <a
-                    href="https://t.me/catnutsolanaportal"
+                    href="https://t.me/plantnutsolana"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
