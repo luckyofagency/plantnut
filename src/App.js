@@ -5,7 +5,7 @@ export default function App() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
 
   const handleCopy = () => {
-    const textToCopy = "CLICK TO COPY...";
+    const textToCopy = "56WF5oQqbdrBvQ9AL2xZrX4mSfDu2P6yGtXsyzgBpump";
     navigator.clipboard.writeText(textToCopy).then(
       () => {
         // alert("Текст скопирован!");
@@ -78,6 +78,7 @@ export default function App() {
             <p className={styles.logo_p}>Catnut</p>
           </div>
           <div className={styles.header_nav}>
+            <button className={styles.header_btn2} onClick={() => { document.location.href = 'https://pump.fun/coin/56WF5oQqbdrBvQ9AL2xZrX4mSfDu2P6yGtXsyzgBpump' }}>Buy now</button>
             <a className={styles.nav_link} href="#home">
               Home
             </a>
@@ -102,7 +103,7 @@ export default function App() {
             onClick={() => setIsOpenMenu(!isOpenMenu)}
             src="./images/menu_btn.png"
           ></img>
-          <button className={styles.header_btn}>Buy now</button>
+          <button className={styles.header_btn} onClick={() => { document.location.href = 'https://pump.fun/coin/56WF5oQqbdrBvQ9AL2xZrX4mSfDu2P6yGtXsyzgBpump' }}>Buy now</button>
         </div>
         <div id="home" className={styles.main_cnt}>
           <div className={styles.main_mobile_cnt}>
@@ -163,7 +164,7 @@ export default function App() {
                 </div>
               </div>
               <div className={styles.copytext_2} onClick={handleCopy}>
-                <p className={styles.copytext_p}>CLICK TO COPY...</p>
+                <p className={styles.copytext_p}>56WF5oQqbdrBvQ9AL2xZrX4mSfDu2P6yGtXsyzgBpump</p>
               </div>
               <img
                 className={styles.right_side_img_2}
@@ -298,7 +299,7 @@ export default function App() {
             src="./images/main_img.png"
           ></img>
           <div className={styles.copytext} onClick={handleCopy}>
-            <p className={styles.copytext_p}>CLICK TO COPY...</p>
+            <p className={styles.copytext_p}>56WF5oQqbdrBvQ9AL2xZrX4mSfDu2P6yGtXsyzgBpump</p>
           </div>
         </div>
         {/* dsa */}

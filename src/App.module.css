@@ -312,6 +312,46 @@ html {
     display: none;
   }
 }
+.header_btn2 {
+  display: none;
+  padding: 0.625rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 0.9375rem;
+  border: 1px solid #ffa26e;
+  background: #ffa26e;
+
+  color: #323232;
+  font-family: RoadRadio;
+  font-size: 4.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: -4rem;
+  &:hover {
+    animation: shake 1s;
+  }
+  @media (max-width: 768px) {
+    margin: 0;
+    margin-top: 0.63rem;
+    display: inline-flex;
+    padding: 0.15219rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.15219rem;
+    border-radius: 0.22825rem;
+    background: #ffa26e;
+    color: #323232;
+    font-family: RoadRadio;
+    font-size: 1.03481rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    white-space: nowrap;
+    display: inline-flex !important;
+  }
+}
 @keyframes shake {
   0% {
     transform: translateX(0);
@@ -387,11 +427,11 @@ html {
     align-items: center;
     /* justify-content: center; */
     width: 19.5rem;
-    height: 2.20119rem;
+    height: 84px;
     flex-shrink: 0;
     border-radius: 0.28219rem;
-    border: 0.2rem solid #d6eb39;
-    background: #323232;
+    border: 0.2rem solid #ffa26e;
+    background: #307865;
 
     margin-top: 35.8rem;
     scale: 0.8;
@@ -401,19 +441,24 @@ html {
   }
 }
 .copytext_p {
-  color: #d6eb399c;
+  color: rgba(255, 162, 110, 0.5);
   font-family: "ADLaM Display";
   font-size: 2.24406rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   margin-left: 2rem;
+  word-break: break-all;
+  text-align: center;
+  margin: 0;
+  padding: 0 10px;
+  font-size: 1.7rem;
   @media (max-width: 768px) {
-    color: #d6eb399c;
+    color: rgba(255, 162, 110, 0.5);
     /* margin-top: 1rem; */
     /* dsadas */
     font-family: "ADLaM Display";
-    font-size: 0.87956rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
